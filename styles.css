@@ -1,0 +1,122 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.firstFlag{
+  font-size: 5rem;
+  color: red;
+  position: absolute;
+  left: 450px;
+}
+.secondFlag{
+  font-size: 5rem;
+  color: red;
+  position: absolute;
+  right: 450px;
+}
+.visibility{
+  visibility: hidden;
+}
+.p1{
+  position: absolute;
+  left: 380px;
+  top: 200px;
+}
+.p2{
+  position: absolute;
+  right: 380px;
+  top: 200px;
+}
+.btn{
+  position: absolute;
+  top: 30px;
+  left: 700px;
+  background-color: #24a19c;
+  padding: 0.3rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  h1{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 1rem;
+    padding: 0 0rem;
+    margin: 1rem 4.2rem;
+  }
+  footer{
+    margin-top: 10rem;
+  }
+  img{
+    width: 20%;
+    position: absolute;
+  }
+  .img1{
+    left: 120px;
+  }
+  .img2{
+    right: 120px;
+  }
+  .btn{
+    position: absolute;
+    left: 250px;
+    top: 10px;
+  }
+  .firstFlag{
+    position: absolute;
+    left: 50px;
+    font-size: 2rem;
+  }
+  .secondFlag{
+    position: absolute;
+    right: 50px;
+    font-size: 2rem;;
+  }
+  .p1{
+    position: absolute;
+    left: 10px;
+  }
+  .p2{
+    position: absolute;
+    right: 10px;
+  }
+}
